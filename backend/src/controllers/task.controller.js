@@ -2,8 +2,8 @@ import { ApiError } from "../utils/ApiError.js"
 import { asyncHandler } from "../utils/asyncHandler.js"
 import { ApiResponse } from "../utils/ApiResponse.js"
 
-import Task  from "../models/task.model.js"
-import User from "../models/user.model.js"
+import {Task}  from "../models/task.model.js"
+import {User} from "../models/user.model.js"
 
 const getAllTask = asyncHandler(async(req,res)=>{
     const {id} = req.params

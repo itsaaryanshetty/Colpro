@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import { Project } from "./project.model";
-import { User } from "./user.model";
+import { Project } from "./project.model.js";          
+import { User } from "./user.model.js";
 
 const taskSchema = new mongoose.Schema({
     title:{

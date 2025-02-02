@@ -1,6 +1,6 @@
 import {Router} from "express"
 import {verifyJWT} from "../middlewares/auth.middleware.js"
-import {createProject, getAllProjects, getProjectById, updateProject, deleteProject} from "../controllers/project.controller.js"
+import {createProject, getAllProjects, updateProject, deleteProject} from "../controllers/project.controller.js"
 
 const router = Router()
 

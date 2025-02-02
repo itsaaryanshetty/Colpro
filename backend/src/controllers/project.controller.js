@@ -3,8 +3,8 @@ import { asyncHandler } from "../utils/asyncHandler.js"
 import { ApiResponse } from "../utils/ApiResponse.js"
 import mongoose from "mongoose"
 
-import Project from "../models/project.model.js"
-import Task from "../models/task.model.js"
+import {Project} from "../models/project.model.js"
+import {Task} from "../models/task.model.js"
 
 const createProject = asyncHandler(async(req,res)=>{
     const currUser = req.user
